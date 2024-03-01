@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Movies"
+            android:textColor="#E37373"
+            android:textColorLink="@color/design_default_color_error"
+            android:onClick="onClickingMoviesbtn"/>
+
+        <Button
+            android:id="@+id/btnSeries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Series"
+            android:onClick="onClickingSeriesbtn"/>
+
+        <Button
+            android:id="@+id/btnAnnimations"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:onClick="onClickingAnimationsbtn"
+            android:text="Animations"
+            android:textColor="@color/design_default_color_on_secondary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="com.example.fragments.MoviesFragment"
+            android:layout_width="match_parent"
+            android:layout_height="685dp" />
+    </LinearLayout>
+</LinearLayout>
