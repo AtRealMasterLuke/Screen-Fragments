@@ -1,6 +1,6 @@
 # Android Movies Series Animations App
 This is a simple Android application built using Android Studio that demonstrates how to navigate between different screens (fragments) based on user input. The app contains three buttons at the top - Movies, Series, and Animations. Upon clicking each button, the app navigates to a corresponding screen fragment displaying relevant content.
-##Features
+## Features
 -Three buttons at the top: Movies, Series, and Animations.
 -Clicking on each button navigates to a new screen fragment:
  *Movies: Displays a list of movies.
