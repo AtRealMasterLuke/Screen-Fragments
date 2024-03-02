@@ -3,9 +3,9 @@ This is a simple Android application built using Android Studio that demonstrate
 ## Features
 -Three buttons at the top: Movies, Series, and Animations.
 -Clicking on each button navigates to a new screen fragment:
- *Movies: Displays a list of movies.
- *Series: Displays a list of series.
- *Animations: Displays a list of animations.
+*Movies: Displays a list of movies.
+*Series: Displays a list of series.
+*Animations: Displays a list of animations.
 -Each screen has its own corresponding XML layout file.
 ## Technologies Used
 -Android Studio
